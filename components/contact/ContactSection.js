@@ -2,7 +2,7 @@
 
 const ContactSection = () => {
     return (
-        <div className="bg-[#F7F7FB] container rounded-xl mx-auto flex flex-col lg:flex-row justify-between px-20 py-14">
+        <div className="bg-[#F7F7FB] container rounded-xl mx-auto flex flex-col lg:flex-row justify-between px-20 py-14" id="contact">
             <aside className="mb-10 lg:mb-0">
                 <p className="font-ibmplex font-semibold text-2xl mb-3">Contact</p>
                 <p className="font-sourcesansae text-[#808080] text-lg mb-8">Beberapa cara menghubungi saya.</p>

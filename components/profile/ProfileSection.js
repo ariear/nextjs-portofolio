@@ -1,6 +1,6 @@
 const ProfileSection = () => {
     return (
-        <div className="text-center py-28">
+        <div className="text-center py-28" id="profile" >
             <p className="font-ibmplex font-semibold text-2xl mb-2">Profile</p>
             <p className="font-sourcesansae text-lg mb-14 text-[#808080]">Mengenal saya secara singkat</p>
 
