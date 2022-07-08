@@ -7,12 +7,12 @@ const Nav = () => {
         <nav className="container mx-auto font-sourcesansae flex justify-between items-center py-10 px-9 md:px-5 lg:px-10 2xl:px-0" >
             <h2 className="text-2xl font-medium text-white">ARIE</h2>
             <ul className="hidden md:flex items-center font-medium text-lg text-[#ffffffa1]">
-                <li className="mr-7"><a href="#profile">Profile</a></li>
-                <li className="mr-7"><a href="#skills">Skills</a></li>
-                <li className="mr-7"><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li className="mr-7 hover:text-white transition-all"><a href="#profile">Profile</a></li>
+                <li className="mr-7 hover:text-white transition-all"><a href="#skills">Skills</a></li>
+                <li className="mr-7 hover:text-white transition-all"><a href="#projects">Projects</a></li>
+                <li className="hover:text-white transition-all"><a href="#contact">Contact</a></li>
             </ul>
-            <button className="md:block hidden py-2 px-8 rounded-full font-medium text-[#FCE72D] border border-[#FCE72D] ">Kontak</button>
+            <button className="md:block hidden py-2 px-8 rounded-full font-medium text-[#FCE72D] border border-[#FCE72D] transition-all duration-300 hover:text-black hover:border-black hover:bg-[#FCE72D] ">Kontak</button>
             <div className="md:hidden block relative">
             <img src="/asset/icons/menu.svg" onClick={() => setOpen(!open)} className="w-[9px]" alt="" />
             {
